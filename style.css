@@ -1,0 +1,343 @@
+.bg-image {
+  position: relative;
+  background-color: #f8fafa;
+}
+.bg-image::before {
+  content: url("./pictures/People_web.webp");
+  width: 44%;
+  height: 360px;
+  background-color: rgb(254, 228, 64);
+  border-top-left-radius: 190px;
+  border-bottom-left-radius: 190px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.container {
+  width: 960px;
+  padding: 0 10px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.referral-section {
+  position: relative;
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.referral-heading {
+  padding-top: 90px;
+  margin-bottom: 36px;
+  font-size: 69px;
+  font-weight: bold;
+  font-family: "Nunito Sans";
+  color: rgb(73, 73, 73);
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 1.2;
+  text-shadow: 0px 7px 51.84px rgba(21, 21, 21, 0.05);
+}
+
+.referral-paragrahp {
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: left;
+  font-family: "Nunito Sans";
+  color: rgb(112, 112, 112);
+  line-height: 1.2;
+}
+.referral-link {
+  margin-bottom: 156px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: rgb(77, 187, 252);
+  box-shadow: 0px 7px 6.72px 0.28px rgba(21, 21, 21, 0.05);
+  width: 157px;
+  font-size: 18px;
+  padding: 11px 0;
+  font-family: "Nunito Sans";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.referral-link:hover,
+.referral-link:focus {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  background-color: rgb(53, 126, 168);
+}
+
+.referral-howIt-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-bottom: 82px;
+}
+.referral-howIt-heading {
+  margin-bottom: 78px;
+  text-align: center;
+  font-size: 46px;
+  font-family: "Nunito Sans";
+  color: rgb(73, 73, 73);
+  font-weight: bold;
+  line-height: 1.2;
+}
+.referral-howIt-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.howIt-list-item {
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+.howIt-list-item-heading {
+  margin-bottom: 22px;
+  font-size: 20px;
+  font-family: "Nunito Sans";
+  color: rgb(21, 21, 21);
+  font-weight: bold;
+  line-height: 1.2;
+}
+.howIt-list-item-paragrahp {
+  margin-bottom: 18px;
+  font-size: 16px;
+  font-family: "Nunito Sans";
+  color: rgb(112, 112, 112);
+  line-height: 1.2;
+}
+.howIt-list-item-button {
+  margin-bottom: 82px;
+  align-self: flex-end;
+  border: none;
+  background-color: inherit;
+  font-size: 12px;
+  font-family: "Nunito Sans";
+  color: rgb(155, 155, 155);
+  line-height: 1.2;
+}
+.howIt-list-item-button:focus,
+.howIt-list-item-button:hover {
+  cursor: pointer;
+  background-color: rgba(254, 228, 64, 0.3);
+}
+
+.container-for-form {
+  width: 456px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.heading-for-form {
+  margin-bottom: 44px;
+  text-align: center;
+  font-size: 46px;
+  font-family: "Nunito Sans";
+  color: rgb(73, 73, 73);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.input-form {
+  box-sizing: border-box;
+  margin-bottom: 14px;
+  padding-left: 26px;
+  width: 220px;
+  height: 34px;
+  border-width: 1px;
+  border-color: rgb(243, 243, 244);
+  border-style: solid;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: inset 0px 3px 4.75px 0.25px rgba(0, 0, 0, 0.13);
+  font-size: 16px;
+  font-family: "Nunito Sans";
+  color: rgb(112, 112, 112);
+  line-height: 1.2;
+}
+
+.input-name {
+  background: url("./pictures/Shape\ 1156\ copy.webp") no-repeat;
+  background-position: left 10px bottom 10px;
+}
+
+.input-name:nth-child(1) {
+  margin-right: 11px;
+}
+.input-name:nth-child(6) {
+  margin-right: 11px;
+}
+
+.input-mail {
+  width: 456px;
+  background: url("./pictures/mail_copy.webp") no-repeat;
+  background-position: left 8px bottom 10px;
+}
+.input-mail:nth-child(8) {
+  margin-bottom: 30px;
+}
+
+.attach-cv {
+  height: 34px;
+  width: 170px;
+  margin-right: 11px;
+  font-size: 16px;
+  font-family: "Nunito Sans";
+  color: rgb(77, 188, 253);
+  font-weight: bold;
+  line-height: 1.2;
+  border-width: 1px;
+  border-color: rgb(243, 243, 244);
+  border-style: solid;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 8px 0px rgba(21, 21, 21, 0.17);
+}
+
+.attach-cv:hover,
+.attach-cv:focus {
+  cursor: pointer;
+  background-color: rgba(254, 228, 64);
+}
+
+.link-cv {
+  width: 270px;
+  margin-bottom: 62px;
+}
+
+.label-form {
+  display: block;
+  font-size: 12px;
+  font-family: "Nunito Sans";
+  color: rgb(112, 112, 112);
+  line-height: 1.667;
+}
+
+.label-form:nth-child(12) {
+  margin-bottom: 36px;
+}
+.wrapper-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.g-recaptcha {
+  display: inline-block;
+}
+.button-form {
+  border-radius: 4px;
+  background-color: rgb(250, 230, 63);
+  width: 115px;
+  height: 45px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.button-form:hover,
+.button-form:focus {
+  background-color: rgb(207, 192, 52);
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+  .container {
+    width: 760px;
+  }
+  .bg-image::before {
+    height: 340px;
+
+    content: url("./pictures/people_768.png");
+  }
+  .referral-heading {
+    font-size: 52px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .container {
+    width: 310px;
+  }
+  .bg-image::before {
+    content: "";
+    width: 100%;
+    height: 320px;
+    background-color: rgb(254, 228, 64);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    top: 0;
+  }
+  .referral-section {
+    width: 100%;
+  }
+  .referral-heading {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 36px;
+  }
+  .referral-link {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .referral-howIt-section {
+    margin-bottom: 40px;
+  }
+  .referral-howIt-heading {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .howIt-list-item {
+    width: 100%;
+  }
+  .howIt-list-item-button {
+    margin-bottom: 12px;
+  }
+  .container-for-form {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    /* margin: 0 auto; */
+    box-sizing: border-box;
+  }
+  .heading-for-form {
+    margin-bottom: 44px;
+    text-align: center;
+    font-size: 36px;
+  }
+  .input-form {
+    width: 100%;
+  }
+  .input-name:nth-child(1) {
+    margin-right: 0;
+  }
+  .input-name:nth-child(6) {
+    margin-right: 0;
+  }
+  .attach-cv {
+    height: 34px;
+    width: 100%;
+    margin: 0 0 14px 0;
+  }
+  .link-cv {
+    margin-bottom: 14px;
+  }
+  .wrapper-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+  .g-recaptcha {
+    margin-bottom: 14px;
+  }
+}
